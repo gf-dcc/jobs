@@ -14,13 +14,13 @@ SLACK=https://hooks.slack.com/services/xxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 ### Example build
 
-`docker build -t ghcr.io/nf-osi/jobs-snapshot .`
+`docker build -t ghcr.io/gf-dcc/jobs-snapshot .`
 
 See images with `docker image ls`
 
 ### Example run 
 
-`docker run --env-file envfile run ghcr.io/nf-osi/jobs-snapshot syn27242487 syn27242485`
+`docker run --env-file envfile run ghcr.io/gf-dcc/jobs-snapshot syn27242487 syn27242485`
 
 ### To do
 
